@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQOk9SwN7RlpCyk21LoGW5YifFWaNbq1IOMLEKHdoPRgICLWzKqpWbsD19XTSAlpFbBI&usqp=CAU" type="image/icon type">
+    <title>Marvel-studios-searchbar</title>
+    <link rel="stylesheet" href="./Character/CSS/Landing.css">
+</head>
+
+<body>
+    <a href="./Comic/ComicLanding.html" id="comic"> <h3 >Intersted in Comics</h3></a>
+    <img src="https://cdn-icons-png.flaticon.com/512/945/945174.png" id="a_i" onclick="checkingAudio()" />
+    <section class="showcase">
+        <video src="./utils/bgvideo.webm" muted loop autoplay></video>
+        <audio src="./utils/marvel_intro.mp3"  loop autoplay   id="audio" ></audio>
+        
+      
+        <div id="main" class="text">
+           
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2mhMKWGREO6ZATI94hKsWPUiU4BVrGdklHWOAq9bg8XuYo7dATvHIBAYF1iZruln9vQ&usqp=CAU">
+            <input type="text" oninput="debounce(main,1000)" id="query">
+            <div id="movies"></div>
+           
+        </div>
+    </section>
+</body>
+
+</html>
+<script src="./Character/JS/Landing.js"></script>

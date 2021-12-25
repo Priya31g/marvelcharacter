@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+.topBar{
+    background-color: #151515;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+    border-width: 0;
+    position: relative;
+    display: flex;
+}
+.topBar>p{
+    margin: 0% 5%;
+    cursor: pointer;
+    height: 100%;
+}
+.topBar>p:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+.main_cont{
+    display: flex;
+    margin: 3% 5%;
+    padding: 4%;
+    justify-content: space-evenly;
+    box-shadow: #151515;
+}
+
+.details_div{
+margin: 0% 2%;
+font-size: 18px;
+}
+
+.price{
+    height: 45px;
+    background-color: tomato;
+   text-align: center;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
