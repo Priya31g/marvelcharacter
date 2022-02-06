@@ -28,7 +28,7 @@
 
 - ### User can click on  ```GO BACK```  button to go to main page
   
-## [Demo](https://marvelcharacter.vercel.app/Landing.html)
+## [Demo](https://marvelcharacter.vercel.app/)
 
 
 ## Github_Link - [Project_link](https://github.com/Priya31g/marvelcharacter.git)
