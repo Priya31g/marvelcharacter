@@ -10,7 +10,7 @@ img.alt="thumbnail";
 
 async function getDetail(){
     try{
-        let data=await fetch(`http://gateway.marvel.com/v1/public/comics/${localdata.id}?ts=thesoer&apikey=001ac6c73378bbfff488a36141458af2&hash=72e5ed53d1398abb831c3ceec263f18b`);
+        let data=await fetch(`https://gateway.marvel.com/v1/public/comics/${localdata.id}?ts=thesoer&apikey=001ac6c73378bbfff488a36141458af2&hash=72e5ed53d1398abb831c3ceec263f18b`);
         let res = await data.json();
         
         return res.data.results[0];
@@ -47,7 +47,7 @@ async function appendData(){
 
 
     let price = document.createElement("div");
-    price.innerHTML ="Price : ₹ "+ d.prices[0].price;
+    price.innerHTML ="Price : $ "+ d.prices[0].price;
     price.setAttribute("class","price")
 
 

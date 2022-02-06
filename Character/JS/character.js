@@ -1,5 +1,5 @@
 function redirect() {
-    window.location.href = "../../Landing.html"
+    window.location.href = "../../index.html"
 
 }
 
